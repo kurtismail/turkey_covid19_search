@@ -1,0 +1,9 @@
+.inp input:focus {
+  box-shadow: 3px 3px 10px rgb(12, 205, 67);
+  transition: all 1s;
+}
+
+.bg-danger,
+.bg-success {
+  transition: all 200ms;
+}
