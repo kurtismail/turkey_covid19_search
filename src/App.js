@@ -30,6 +30,8 @@ const App = () => {
               setTarih(e.target.value.replaceAll(".", "/"));
             }}
           ></input>
+          <button type="button" class="btn btn-danger m-2">Submit</button>
+
           <table className="table table strike text-white">
             <thead>
               <tr className="border">
